@@ -2,6 +2,12 @@
   import "../app.css";
   import "flowbite/dist/flowbite.css";
   import { DarkMode } from "flowbite-svelte";
+  import {
+    EnvelopeSolid,
+    LinkedinSolid,
+    MailBoxSolid,
+    ProfileCardOutline,
+  } from "flowbite-svelte-icons";
 </script>
 
 <nav
@@ -40,27 +46,22 @@
         </a>
       </div>
       <div class="flex items-center">
-        <div class="flex items-center ms-3">
-          <div>
-            <button
-              type="button"
-              class="flex text-sm bg-gray-800 rounded-full focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
-              aria-expanded="false"
-              data-dropdown-toggle="dropdown-user"
-            >
-              <DarkMode />
-            </button>
-          </div>
-          <div
-            class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded shadow dark:bg-gray-700 dark:divide-gray-600"
-            id="dropdown-user"
+        <div class="flex items-center ms-3 space-x-4">
+          <button
+            type="button"
+            class="flex text-sm bg-gray-800 rounded-full focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
+            aria-expanded="false"
           >
-            <div class="px-4 py-3" role="none">
-              <p class="text-sm text-gray-900 dark:text-white" role="none">
-                Neil Sims
-              </p>
-            </div>
-          </div>
+            <DarkMode />
+          </button>
+          <a
+            href="https://www.linkedin.com/in/lukas-k-366108122/"
+            type="button"
+            class="flex text-sm rounded-full focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
+            aria-expanded="false"
+          >
+            <LinkedinSolid />
+          </a>
         </div>
       </div>
     </div>
@@ -79,20 +80,7 @@
           href="/about-me"
           class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
         >
-          <svg
-            class="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="currentColor"
-            viewBox="0 0 22 21"
-          >
-            <path
-              d="M16.975 11H10V4.025a1 1 0 0 0-1.066-.998 8.5 8.5 0 1 0 9.039 9.039.999.999 0 0 0-1-1.066h.002Z"
-            />
-            <path
-              d="M12.5 0c-.157 0-.311.01-.565.027A1 1 0 0 0 11 1.02V10h8.975a1 1 0 0 0 1-.935c.013-.188.028-.374.028-.565A8.51 8.51 0 0 0 12.5 0Z"
-            />
-          </svg>
+          <ProfileCardOutline />
           <span class="ms-3">About me</span>
         </a>
       </li>
@@ -115,23 +103,23 @@
           <span class="flex-1 ms-3 whitespace-nowrap">Blog</span>
         </a>
       </li> -->
+      <li />
       <li>
         <a
           href="/projects"
           class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
         >
-          <svg
-            class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-          >
-            <path
-              d="m17.418 3.623-.018-.008a6.713 6.713 0 0 0-2.4-.569V2h1a1 1 0 1 0 0-2h-2a1 1 0 0 0-1 1v2H9.89A6.977 6.977 0 0 1 12 8v5h-2V8A5 5 0 1 0 0 8v6a1 1 0 0 0 1 1h8v4a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-4h6a1 1 0 0 0 1-1V8a5 5 0 0 0-2.582-4.377ZM6 12H4a1 1 0 0 1 0-2h2a1 1 0 0 1 0 2Z"
-            />
-          </svg>
+          <MailBoxSolid />
           <span class="flex-1 ms-3 whitespace-nowrap">Projects</span>
+        </a>
+      </li>
+      <li>
+        <a
+          href="/contact"
+          class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+        >
+          <EnvelopeSolid />
+          <span class="flex-1 ms-3 whitespace-nowrap">Contact</span>
         </a>
       </li>
     </ul>
@@ -145,3 +133,10 @@
     <slot />
   </div>
 </div>
+
+<footer class="p-4 font-rubik">
+  <div class="container mx-auto text-center">
+    <p class="text-sm">&copy; 2023 Lukas Kohlmaier. All rights reserved.</p>
+    <p class="text-sm">Built with Svelte and Tailwind CSS</p>
+  </div>
+</footer>

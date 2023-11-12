@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <div class="grid grid-cols-3 gap-8" style="height: calc(100vh - 128px);">
   <div class="col-span-1 flex justify-center align-middle">
     <img class="rounded-2xl" src="https://placehold.co/200x250" alt="Profile" />
@@ -11,7 +8,7 @@
         <h1 class="text-3xl font-bold mb-4 font-rubik">About Me</h1>
         <p class="text-lg mb-4 font-rubik">
           Hello, my name is Lukas Kohlmaier. I am a full-stack-developer and
-          dotnet enthusiast currently working in Klagenfurt, Austria. I am
+          keyboard enthusiast currently working in Klagenfurt, Austria. I am
           passionate about programming and love to learn new things. I am
           working with the following technologies:
         </p>
@@ -33,6 +30,16 @@
           <li class="ml-6">tailwind</li>
           <li class="ml-6">material ui</li>
         </ul>
+
+        <h2 class="font-rubik">Cloud</h2>
+        <ul class="list-disc list-inside font-rubik">
+          <li class="ml-6">Microsoft Azure</li>
+        </ul>
+
+        <p class="text-lg mb-4 mt-4 font-rubik">
+          Do you have a project in mind? Feel free to reach out via the contact
+          form. I'm sure we can build something great together.
+        </p>
       </div>
     </div>
   </div>
