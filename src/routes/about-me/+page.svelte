@@ -1,6 +1,6 @@
-<div class="grid grid-cols-12 gap-12" style="min-height: calc(100vh - 128px);">
+<div class="grid grid-cols-12 space-x-4" style="min-height: calc(100vh - 128px);">
   <div class="md:col-span-4 sm:col-span-12 flex justify-center items-center">
-    <img class="rounded-2xl w-full" src="https://placehold.co/200x250" alt="Profile" />
+    <img class="rounded-2xl w-full m-4" src="https://placehold.co/200x250" alt="Profile" />
   </div>
   <div class="md:col-span-8 sm:col-span-12">
     <div class="flex items-center h-full">
