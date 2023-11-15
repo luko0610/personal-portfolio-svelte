@@ -4,6 +4,7 @@
   import { DarkMode } from "flowbite-svelte";
   import {
     EnvelopeSolid,
+    GithubSolid,
     LinkedinSolid,
     MailBoxSolid,
     ProfileCardOutline,
@@ -96,6 +97,14 @@
             aria-expanded="false"
           >
             <LinkedinSolid />
+          </a>
+          <a
+            href="https://github.com/luko0610"
+            type="button"
+            class="flex text-sm rounded-full focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
+            aria-expanded="false"
+          >
+            <GithubSolid />
           </a>
         </div>
       </div>
