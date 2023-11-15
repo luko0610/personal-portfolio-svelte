@@ -1,6 +1,7 @@
 {
   "name": "Lukas Kohlmaier - Software Engineer from Klagenfurt am Wörthersee. Personal portfolio and blog.",
   "short_name": "Lukas Kohlmaier - Software Engineer from Klagenfurt am Wörthersee.",
+  "start_url": "/",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
