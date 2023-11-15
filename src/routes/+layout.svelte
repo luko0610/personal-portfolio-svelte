@@ -47,13 +47,19 @@
       </div>
       <div class="flex items-center">
         <div class="flex items-center ms-3 space-x-4">
-          <button
+          <a
+            href="/contact"
+            class="flex font-rubik text-white text-lg pl-2 pr-2 bg-orange-600/75 rounded focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
+          >
+            Contact me
+          </a>
+          <!-- <button
             type="button"
             class="flex text-sm bg-gray-800 rounded-full focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
             aria-expanded="false"
           >
             <DarkMode />
-          </button>
+          </button> -->
           <a
             href="https://www.linkedin.com/in/lukas-k-366108122/"
             type="button"

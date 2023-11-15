@@ -1,15 +1,18 @@
-<div class="grid grid-cols-3 gap-8" style="height: calc(100vh - 128px);">
-  <div class="col-span-1 flex justify-center align-middle">
-    <img class="rounded-2xl" src="https://placehold.co/200x250" alt="Profile" />
+<div class="grid grid-cols-12 gap-12" style="min-height: calc(100vh - 128px);">
+  <div class="md:col-span-4 sm:col-span-12 flex justify-center items-center">
+    <img class="rounded-2xl w-full" src="https://placehold.co/200x250" alt="Profile" />
   </div>
-  <div class="col-span-2">
+  <div class="md:col-span-8 sm:col-span-12">
     <div class="flex items-center h-full">
       <div>
         <h1 class="text-3xl font-bold mb-4 font-rubik">About Me</h1>
         <p class="text-lg mb-4 font-rubik">
           Hello, my name is Lukas Kohlmaier. I am a full-stack-developer and
           keyboard enthusiast currently working in Klagenfurt, Austria. I am
-          passionate about programming and love to learn new things. I am
+          passionate about programming and love to learn new things.
+        </p>
+        <p class="text-lg mb-4 font-rubik">
+          I am
           working with the following technologies:
         </p>
 
